@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/style/index.css">
+    <link rel="stylesheet" href="../assets/style/media.css">
+    <title>Affiliate- Upload</title>
+</head>
+<body>
+    <section id="home">
+        <header>
+            <nav class="con">
+                <a href="../index.html"><img src="../assets/images/Payleads logo.jpg" alt=""></a>
+                <ul id="link">
+                    <li class="h"><a href="../index.html">Home</a></li>
+                    <li><a href="../pages/how.html">How It Works</a></li>
+                    <li><a href="../pages/contact.html">Contact Us</a></li>
+                    <li class="aff"><a href="../pages/Product.html">Products</a></li>
+                </ul>
+                <div class="flag dashh">
+                   <a href="../pages/LogIn.html"> <img src="../assets/images/Group (1).png" alt=""></a>
+                </div>
+                
+            </nav>
+            <div class="menubar">
+                <img src="../assets/images/Hamburger Menu.svg" alt="" id="open">
+                <img src="../assets/images/Close.svg" alt="" id="close">
+            </div>
+        </header>
+
+    
+    </section> 
+
+    <div class="upload">
+        <form action="" method="get">
+            <div class="p-f">
+                <h2>Upload Product</h2>
+            </div>
+            <div class="f-contnt">
+                
+                <div class="l-contnt">
+                    
+                    <p>Product Name</p>
+                    <input type="text" required><br>
+                    
+                    <p>Product Type</p>
+                    <input type="text" required> <br>
+
+                    <p>Product Description</p>
+                    <textarea name="" id="" cols="30" rows="10" ></textarea>
+                </div>
+
+
+                <div class="r-contnt">
+                    <div class="tag" style="position: relative; cursor: pointer;">
+                        <input type="file" name="" id="file" placeholder="Upload Product" style=" visibility:hidden;" >
+                        <div class="inputt" id="upload" style="position: absolute; top: 0; display: flex; align-items: center; color: #fff; justify-content: center; font-weight: 700; font-size: 15px; background-color: #01184B;">
+                            <p style="color: #fff;">Upload file</p>
+                        </div>
+                    </div>
+                    <p class="or" style="font-size:26px ;">or</p>
+                    <input type="text" placeholder="Paste link">
+
+                    
+                    <div class="drop">
+                        <div class="select">
+                            <p>Price</p>
+                            <input type="text" required>
+                        </div>
+                        <div class="comm">
+                                <p>Affiliate Commision</p>
+                                <select name="" id="">
+                                    <option value="10">10%</option>
+                                    <option value="15">15%</option>
+                                    <option value="20">20%</option>
+                                    <option value="25">25%</option>
+                                    <option value="30">30%</option>
+                                    <option value="35">35%</option>
+                                    <option value="40">40%</option>
+                                    <option value="45">45%</option>
+                                    <option value="50">50%</option>
+                                </select>
+                        </div>
+
+                        
+                    </div>
+
+                    <button type="submit">SUBMIT</button>
+                </div>
+
+                
+            </div>
+
+        </form>
+    </div>
+
+    <script>
+    var upload = document.getElementById('upload');
+    var file = document.getElementById('file')
+
+function fun1(){
+    file.click()
+}
+
+upload.addEventListener('click', fun1)
+    </script>
+    <script src="../script/main.js"></script>
+</body>
+</html>

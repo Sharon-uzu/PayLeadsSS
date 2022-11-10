@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/style/index.css">
+    <link rel="stylesheet" href="../assets/style/media.css">
+    <title>Affiliate- SignUp</title>
+</head>
+<body>
+    <section id="home">
+        <header>
+            <nav class="becme con">
+                <a href="../index.html"><img src="../assets/images/Payleads logo.jpg" alt=""></a>
+                <ul id="link">
+                    <li class="h"><a href="../index.html">Home</a></li>
+                    <li><a href="../pages/how.html">How It Works</a></li>
+                    <li><a href="../pages/contact.html">Contact Us</a></li>
+                    <li class="aff"><a href="../pages/phone.html">Become An Affiliate</a></li>
+                </ul>
+                <div class="flag">
+                   <a href="../pages/LogIn.html"> <img src="../assets/images/Group (1).png" alt=""></a>
+                </div>
+                
+            </nav>
+            <div class="menubar">
+                <img src="../assets/images/Hamburger Menu.svg" alt="" id="open">
+                <img src="../assets/images/Close.svg" alt="" id="close">
+            </div>
+        </header>
+
+
+        <div class="signn ">
+            <div class="bars">
+                <div class="a-bar">
+                    <h2>Hello Friend! <br>
+                    <span>Fill Out Personal Information And Start Jouney With Us</span></h2>
+                </div>
+                <form action="LogIn.html" method="get" autocomplete="off">
+                    <div class="b-bar" id="forms">
+                        <div class="formm">
+                            <h2>Become An Affiliate</h2>
+                            <div class="i-flex">
+                                <div class="input">
+                                    <p>Name</p>
+                                    <input type="text" placeholder="Full Name" required name="full name" id="input" required>
+                                </div>
+                                <div class="input">
+                                    <p>Email</p>
+                                    <input type="email" name="" id="" placeholder="rg@gmail.com" required name="phone number"  > 
+                                </div>
+                            </div>
+                            <div class="g-form">
+                                <div class="input">
+                                    <p>Country</p>
+                                    <select name="country" id="country" required name="gender" required>
+                                        <option value="">Select Country</option>
+                                        <option value="female">USA</option>
+                                        <option value="male">UK</option>
+                                        <option value="female">GHANA</option>
+                                        <option value="male">NIGERIA</option>
+                                        <option value="female">GAMBIA</option>
+                                        <option value="male">ENGLAND</option>
+                                        <option value="female">CAMEROON</option>
+                                        <option value="male">ITALY</option>
+                                        <option value="female">FRANCE</option>
+                                        <option value="male">AUSTRALIA</option>
+                                        <option value="female">CANADA</option>
+                                        <option value="male">BURKINA FASO</option>
+                                        <option value="male">TOGO</option>
+                                        <option value="female">SENEGAL</option>
+                                       
+                                    </select>
+                                </div> 
+                                <div class="input">
+                                    <p>Gender</p>
+                                    <select name="gender" id="gender" required name="gender" required>
+                                        <option value="">Select gender</option>
+                                        <option value="female">Female</option>
+                                        <option value="male">Male</option>
+                                    </select>
+                                </div> 
+                                <div class="input">
+                                    <p>Create Password</p>
+                                    <input type="password" name="" id="" placeholder="Enter Password" name="create password" required  class="fone">
+                                </div>
+                                <div class="input">
+                                    <p>Confirm Password</p>
+                                    <input type="password" name="" id=""  placeholder="Enter Password" name="enter password" >
+                                </div>
+                                
+                            </div>
+                            <div class="button" id="next">
+                                <button onclick="next">NEXT</button>
+                            </div>
+                        </div>
+                        <p class="paragragh">Already An Affiliate? <span> <a href="../pages/LogIn.html">Log In</a></span></p>
+
+                    </div>
+                    <div class="b-bar" id="formt">
+                        <div class="formm">
+                            <h2> Bank Details</h2>
+                            <div class="g-form f-form">
+                                <div class="input iput">
+                                    <p>Bank</p>
+                                    <select name="gender" id="gender" required name="gender" required>
+                                        <option value="">Select Bank</option>
+                                        <option value="f">FCMB</option>
+                                        <option value="U">UBA</option>
+                                        <option value="A">ACCESS</option>
+                                        <option value="fi">First Bank</option>
+                                        <option value="fe">Fidelity</option>
+                                        <option value="z">Zenith</option>
+                                        <option value="p">Polarise</option>
+                                        <option value="w">WEMA</option>
+                                        <option value="u">Union</option>
+                                        
+                                    </select>
+                                </div>
+                                
+                                <div class="input">
+                                    <p> Account Number</p>
+                                    <input type="text"  pattern="[0-9]{10}" placeholder="324677" required name="account number">
+                                </div>
+                                <div class="input">
+                                    <p>Account Name</p>
+                                    <div class="acct"></div>
+                                </div> 
+                                
+                               
+                                
+                            </div>
+                            <div class="button">
+                                    <button id="prev">PREVIOUS</button>
+                                
+                                <button type="submit" class="submit">I'm Ready</button>
+                            </div>
+
+                            <p class="paragragh">Already An Affiliate? <span> <a href="../pages/LogIn.html">Log In</a></span></p>
+                        </div>
+                    
+                    </div>
+                    
+                </form>
+
+            </div>
+
+        </div>
+
+
+
+    </section>
+
+
+    <script src="../script/main.js"></script>
+    
+    <script>
+       function next()
+       {
+        if (input.value==='') {
+            messages.push("fields are required")
+            
+        } else {
+            
+        }
+       }
+    </script>
+
+
+<script>
+    var next = document.getElementById('next');
+var forms = document.getElementById('forms');
+var formt = document.getElementById('formt');
+var prev = document.getElementById('prev');
+var upload = document.getElementById('upload');
+var file = document.getElementById('file')
+
+
+next.addEventListener('click', function(){
+    formt.style.display = 'block';
+    forms.style.display = 'none'
+})
+
+prev.addEventListener('click', function(){
+    formt.style.display = 'none';
+    forms.style.display = 'block'
+})
+
+upload.addEventListener('click', function(){
+    upload.style.display = 'none';
+    file.style.display = 'block'
+})
+
+
+
+</script>
+</body>
+</html>
